@@ -1,6 +1,6 @@
 ## Synopsis
 
-https://coinmarketcal.com/　をスクレイピングしてみました。
+https://coinmarketcal.com/　のスクレイピング
 
 ## Code Example
 

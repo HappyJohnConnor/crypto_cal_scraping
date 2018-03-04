@@ -7,13 +7,14 @@ root = lxml.html.fromstring(html)
 
 time_of_event = root.xpath(
     "/html/body/main/div[3]/section[1]/div[2]/div[3]/article[1]/div/h5[1]/strong")
-print(time_of_event[0].text)
+
+print(time_of_event[0].text.strip())
 title_of_event = root.xpath(
     "/html/body/main/div[3]/section[1]/div[2]/div[3]/article[1]/div/h5[2]/strong")
-print(title_of_event[0].text)
+print(title_of_event[0].text.strip())
 sort_of_event = root.xpath(
     "/html/body/main/div[3]/section[1]/div[2]/div[3]/article[1]/div/h5[3]")
-print(sort_of_event[0].text)
+print(sort_of_event[0].text.strip())
 content_of_event = root.xpath(
     "/html/body/main/div[3]/section[1]/div[2]/div[3]/article[1]/div/div[1]/p[2]")
-print(content_of_event[0].text)
+print(content_of_event[0].text.strip())
