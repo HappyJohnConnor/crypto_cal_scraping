@@ -14,7 +14,7 @@ XPathを用いて一つのイベントから時間、タイトル、種類、内
 XPathの指定を仕方を変えて、test.pyと同じことをする。
 
 ### [*test_convert_to_date.py*][py3]
-サイトから持ってきた時間を、PythonのDate型に変え、さらにstrftime関数を使い、MySQLのDATE型に変換する。
+サイトから持ってきたイベントの日付を、PythonのDate型に変え、さらにstrftime関数を使い、MySQLのDATE型に変換する。
 
 ### [*test_css.py*][py_css]
 Xpathではなく、cssselectを用いて、セレクタ指定でイベントの内容を持ってくる。
@@ -26,9 +26,7 @@ Xpathではなく、cssselectを用いて、セレクタ指定でイベントの
 格納した情報をデータベースに保存する。
 
 ## License
-
 MIT
-
 
 [1]:https://coinmarketcal.com/
 [py1]:test.py
