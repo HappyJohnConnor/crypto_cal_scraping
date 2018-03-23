@@ -17,7 +17,7 @@ XPathの指定を仕方を変えて、test.pyと同じことをする。
 サイトから持ってきた時間を、PythonのDate型に変え、さらにstrftime関数を使い、MySQLのDATE型に変換する。
 
 ### test_css.py
-
+Xpathではなく、cssselectを用いて、セレクタ指定でイベントの内容を持ってくる。
 ### test_css2.py
 
 ### test_css3.py

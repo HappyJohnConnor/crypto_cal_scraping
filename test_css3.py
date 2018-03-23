@@ -6,7 +6,7 @@ import MySQLdb
 
 connection = MySQLdb.connect(
     user="scrapingman",
-    passwd="dxdutch",
+    passwd="",
     host="localhost",
     db="data_of_crypto_event",
     charset="utf8"
