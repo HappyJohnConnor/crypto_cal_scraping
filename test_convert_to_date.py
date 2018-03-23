@@ -1,5 +1,4 @@
 import datetime
-import re
 
 # textを日付型（yyyy-mm-dd）に変える
 text = "March 13"
