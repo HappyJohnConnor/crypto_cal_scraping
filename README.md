@@ -3,9 +3,7 @@
 
 [Crytocurrency Calendar][1]のスクレイピング。サイトからそれぞれのイベントの時間、タイトル、種類、内容をとってきて、MySQLに格納する
 
-![[Crytocurrency Calendar][1]](crypto_cal.png)
-
-<img src="crypto_cal.png" alt="Crytocurrency Calendar" width="300">
+<img src="crypto_cal.png" alt="Crytocurrency Calendar" width="600" align="center">
 
 ##　ファイルの説明
 
